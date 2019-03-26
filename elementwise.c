@@ -317,7 +317,7 @@ Matrix matMul(Matrix A, Matrix B)
 		{
 			for(int j = 0; j < C.c; j++)
 			{
-				float sum = 0;
+				float sum = 0.0;
 
 				for(int k = 0; k < B.r; k++)
 					sum += A.MatPtr[i][k] * B.	MatPtr[k][j];
