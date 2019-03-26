@@ -5,12 +5,6 @@
 #include "MatrixLibrary.h"
 #define Rand_upper 20
 
-typedef struct{
-	int r;																		//Number of rows
-	int c;																		//Number of columns	
-	float **MatPtr;																//Pointer to the matrix.
-} Matrix;
-
 void initialiseZero(Matrix *a, int row, int column)
 {
 	a->r = row;																
