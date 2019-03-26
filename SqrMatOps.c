@@ -90,7 +90,7 @@ Matrix adjoint(Matrix mat)
 		{
 			sub = cofactor(mat,row,col);		//getting cofactor
 			det = determinant(sub);
-			adj.MatPtr[row][col] = det;			//putting in adjoint
+			adj.MatPtr[row][col] = det*pow(-1,row+col+2);		//putting in adjoint
 		}
 	}
 	adj = transpose(adj);		//transpose to get adjoint
