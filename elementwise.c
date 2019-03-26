@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<math.h>
+#include "MatrixLibrary.h"
 
 
 Matrix floorMat(Matrix mat)
