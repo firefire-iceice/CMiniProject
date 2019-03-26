@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
+#include "MatrixLibrary.h"
 #define Rand_upper 20
 
 typedef struct{
