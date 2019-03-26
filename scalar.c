@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+#include "MatrixLibrary.h"
 
 Matrix ScalarDiv(Matrix mat,float scalar)
 {
